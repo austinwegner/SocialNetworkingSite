@@ -1,0 +1,134 @@
+
+body {
+   font-family: "lucida grande" , tahoma, verdana,arial,sans-serif;
+   font-size: 14px;
+   color: #333333;
+   background-color: #F9F7DE;
+}
+ 
+p {
+   width: 80%;
+}
+ 
+li {
+   list-style-type: none;
+   line-height: 150%;
+   list-style-image: url(../images/arrowSmall.gif);
+}
+ 
+h1 {
+   font-family: "lucida grande" , tahoma, verdana,arial,sans-serif;
+   font-size: 18px;
+   font-weight: bold;
+   color: #000000;
+   border-bottom: 2px solid #C6EC8C;
+}
+ 
+h2 {
+   font-family: "lucida grande" , tahoma, verdana,arial,sans-serif;
+   font-size: 16px;
+   font-weight: bold;
+   color: #000000;
+   border-bottom: 1px solid #C6EC8C;
+}
+ 
+/**************** Pseudo classes ****************/
+ 
+a:link {
+   color: #849f69;
+   text-decoration: none;
+   font-weight: bold;
+}
+ 
+li :link {
+   color: #849f69;
+   text-decoration: none;
+   font-weight: bold;
+}
+ 
+a:visited {
+   color: #849f69;
+   text-decoration: none;
+   font-weight: bold;
+}
+ 
+li a:visited {
+   color: #849f69;
+   text-decoration: none;
+   font-weight: bold;
+}
+ 
+a:hover {
+   color: #add584;
+   padding-bottom: 5px;
+   font-weight: bold;
+   text-decoration: underline;
+}
+ 
+li a:hover {
+   display: block;
+   color: #add584;
+   padding-bottom: 5px;
+   font-weight: bold;
+   border-bottom-width: 1px;
+   border-bottom-style: solid;
+   border-bottom-color: #C6EC8C;
+}
+ 
+a:active {
+   color: #add584;
+   font-weight: bold;
+}
+ 
+/************************* ID's *************************/
+ 
+#navigation {
+   position: absolute;
+   width: 210px;
+   height: 600px;
+   margin: 0;
+   margin-top: 50px;
+   border-right: 1px solid #C6EC8C;
+   font-weight: normal;
+}
+ 
+#centerDoc {
+   position: absolute;
+   width: 500px;
+   padding: 0 0 20px 0; /*top right bottom left*/
+   margin-top: 50px;
+   margin-left: 230px;
+   border-right: 3px solid #C6EC8C
+}
+
+#wallPost {
+   background-color: #add584;
+   width: 450px;
+   border: 1px solid #849f69;
+   color:#333333;
+   padding: 10px;
+   font-size: 13px;
+   font-weight: normal;
+}
+
+#comment {
+   margin-left: 10px;
+   width: 460px;
+   background-color: white;
+   border-top: 1px;
+   border-right: 1px solid #849f69;
+   border-left:1px solid #849f69;
+   border-bottom:1px solid #849f69;
+   color:#333333
+   padding: 10px;
+   font-size: 13px;
+   font-weight: normal;
+}
+
+#friendsColumn {
+   position: absolute;
+   width:190px;
+   height: 600px;
+   margin-top: 50px;
+   margin-left: 750px;
+}
